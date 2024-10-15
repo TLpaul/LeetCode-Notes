@@ -1,0 +1,15 @@
+arr = [0,1,0,0,0,1]
+
+res = 0
+l = 0
+
+for r in range (len(arr)):
+    if arr[r] == 0:
+        res += (r-l)
+        l+=1
+
+print(res)
+          
+        
+
+
